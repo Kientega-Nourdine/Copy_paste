@@ -11,8 +11,5 @@ main .card-container .card .input-control svg.copy { fill: rgb(48, 48, 223); }
 main .card-container .card .input-control svg.copie-checked { fill: rgb(48, 48, 223); display: none; }
 main .card-container .card .input-control svg.paste { fill: green; opacity: .8; }
 main .card-container .card .input-control svg.paste-checked { fill: green; opacity: .8; display: none; }
-/* main .card-container .card .input-control svg.copie-checked { fill: green; opacity: .8; } */
-/* main .card-container .card .input-control svg.paste-checked { fill: green; opacity: .8; } */
-/* main .card-container .card .input-control svg.checked { fill: green; opacity: .8; } */
 main .card-container svg.delete { fill: red; opacity: .8; }
 main .card-container button.destroy { border: none; background: inherit; }
