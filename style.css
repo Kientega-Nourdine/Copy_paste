@@ -1,0 +1,18 @@
+body { background: #f5f5f5; font-family: '-weebkit-body'; }
+main .card-container { text-align: center; width: 35%; padding: 30px; margin: 20vh auto; background: #fff; box-shadow: 0 0 15px rgba(0, 0, 0, .2); border-radius: 5px; }
+main .card-container h1 { margin: 10px 0; }
+main .card-container .card .input-control { margin: 10px 0; font-size: 1.1rem; display: flex; align-items: center; background: #f5f5f5; padding: 1rem; border-radius: 10px; justify-content: center; gap: 20px; }
+main .card-container .card .input-control input { padding: .4rem; outline: none; border: 1px solid rgba(0, 0, 0, .2); border-radius: 4px; }
+/* main .card-container .card .input-control .btn { width: ;} */
+
+main .card-container .card .input-control .btn { width: 30px; height: 30px; background: #ffffff; display: flex; justify-content: center; align-items: center; border: 1px solid rgba(0, 0, 0, .1); border-radius: 4px; }
+main .card-container .card .input-control svg { width: 25px; height: 25px; cursor: pointer; }
+main .card-container .card .input-control svg.copy { fill: rgb(48, 48, 223); }
+main .card-container .card .input-control svg.copie-checked { fill: rgb(48, 48, 223); display: none; }
+main .card-container .card .input-control svg.paste { fill: green; opacity: .8; }
+main .card-container .card .input-control svg.paste-checked { fill: green; opacity: .8; display: none; }
+/* main .card-container .card .input-control svg.copie-checked { fill: green; opacity: .8; } */
+/* main .card-container .card .input-control svg.paste-checked { fill: green; opacity: .8; } */
+/* main .card-container .card .input-control svg.checked { fill: green; opacity: .8; } */
+main .card-container svg.delete { fill: red; opacity: .8; }
+main .card-container button.destroy { border: none; background: inherit; }
